@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rullebladholder>
+    <rulleblad id="02027212345">
+        <navn>Sintulf Slåssesen</navn>
+        <dommer>
+            <dom id="1" type="vold" subtype="umotivert" alvorlighetsgrad="veldig">
+                Grov mishandling
+            </dom>
+            <dom id="2" type="vold" subtype="motivert" alvorlighetsgrad="veldig">
+                Grov mishandling av medfange
+            </dom>
+        </dommer>
+        <psyke>ustabil</psyke>
+    </rulleblad>
+    <rulleblad id="03027212345">
+        <navn>Teitulf Slemmesen</navn>
+        <dommer>
+            <dom id="1" type="sexovergrep" subtype="pedofili" alvorlighetsgrad="veldig">
+                Sensurert
+            </dom>
+        </dommer>
+        <psyke>stabil</psyke>
+    </rulleblad>
+    <rulleblad id="04027212345">
+        <navn>Ola Dunk</navn>
+        <dommer>
+            <dom id="1" type="hjemmebrenning" subtype="salg og distribusjon" alvorlighetsgrad="lite">
+                Hjemmebrentproduksjon og salg i middels skala
+            </dom>
+        </dommer>
+        <psyke>stabil</psyke>
+    </rulleblad>
+    <rulleblad id="05027212345">
+        <navn>Preben Luring</navn>
+        <dommer>
+            <dom id="1" type="underslag" subtype="økonomisk" alvorlighetsgrad="middels">
+                Større økonomisk underslag i middels stor bedrift
+            </dom>
+        </dommer>
+        <psyke>stabil</psyke>
+    </rulleblad>
+    <rulleblad id="06027312345">
+        <navn>Arthur Dunk</navn>
+        <dommer>
+            <dom id="1" type="hjemmebrenning" subtype="salg og distribusjon" alvorlighetsgrad="lite">
+                Hjemmebrentproduksjon og salg i middels skala
+            </dom>
+        </dommer>
+        <psyke>stabil</psyke>
+    </rulleblad>
+    <rulleblad id="07027312345">
+        <navn>Janus Luring</navn>
+        <dommer>
+            <dom id="1" type="underslag" subtype="økonomisk" alvorlighetsgrad="middels">
+                Større økonomisk underslag i middels stor bedrift
+            </dom>
+        </dommer>
+        <psyke>stabil</psyke>
+    </rulleblad>
+</rullebladholder>

@@ -1,15 +1,18 @@
 package no.mesan.jooxexamples;
 
-import org.joox.Match;
-import org.junit.Test;
-import org.w3c.dom.Document;
-import org.xml.sax.SAXException;
+import static org.joox.JOOX.$;
+import static org.joox.JOOX.even;
+import static org.joox.JOOX.odd;
 
 import java.io.File;
 import java.io.IOException;
 import java.util.stream.Collectors;
 
-import static org.joox.JOOX.*;
+import org.joox.Match;
+import org.junit.Assert;
+import org.junit.Test;
+import org.w3c.dom.Document;
+import org.xml.sax.SAXException;
 
 /**
  * The test is the example.
@@ -53,5 +56,15 @@ public class RullebladTest {
         // Ferdig, vi visualiserer på enkleste måte med sysout:
         System.out.println($(document).toString());
         System.out.println("\nPersnr eksportert til avdeling A: " + alleA);
+
+        doAsserts(document);
+    }
+
+    private void doAsserts(Document document) {
+        Assert.assertEquals("farlig", $(document).find("avdeling").content(0));
+        Assert.assertEquals("farlig", $(document).find("avdeling").content(1));
+        Assert.assertEquals("A", $(document).find("avdeling").content(2));
+        Assert.assertEquals("B", $(document).find("avdeling").content(3));
+        Assert.assertFalse($(document).find("avdeling").isEmpty());
     }
 }
